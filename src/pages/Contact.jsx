@@ -26,7 +26,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/contact", formData);
+      const response = await axios.post("https://sandeep-portfolio-eo8h.onrender.com/api/contact", formData);
       console.info("Data saved successfully:", response.data);
       toast.success("Message Sent Successfully!");
       setFormData({
