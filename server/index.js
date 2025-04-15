@@ -26,10 +26,10 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("MongoDB connected successfully ✅");
+    console.info("MongoDB connected successfully ✅");
     // Start server only after DB connection
     app.listen(PORT, () => {
-      console.log(`Server is running on http://localhost:${PORT} 🚀`);
+      console.info(`Server is running on http://localhost:${PORT} 🚀`);
     });
   })
   .catch((err) => {

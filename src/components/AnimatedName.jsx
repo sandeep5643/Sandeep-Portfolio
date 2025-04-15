@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 const AnimatedText = () => {
-  const text = "Hi, I'm Sandeep Kumar";
   const firstPart = "Hi, I'm "; // First part of the text
   const secondPart = "Sandeep Kumar"; // Second part of the text
 

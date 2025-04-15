@@ -27,7 +27,7 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       const response = await axios.post("http://localhost:5000/api/contact", formData);
-      console.log("Data saved successfully:", response.data);
+      console.info("Data saved successfully:", response.data);
       toast.success("Message Sent Successfully!");
       setFormData({
         firstName: "",
