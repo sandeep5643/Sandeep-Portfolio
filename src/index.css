@@ -1,0 +1,24 @@
+/* Add this to your index.css to make sure the dark mode works globally */
+html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    scroll-behavior: smooth;
+  }
+  
+  html.dark {
+    background-color: #121212; /* Dark mode background color */
+    color: white; /* Dark mode text color */
+  }
+  
+  /* Tailwind dark mode utilities */
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @layer base {
+    html {
+      background-color: #f9fafb; /* Light mode background color */
+      color: black; /* Light mode text color */
+    }
+  }
+
+/* index.css ya global.css ke andar */
