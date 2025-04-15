@@ -36,9 +36,9 @@
 
 
 const express = require("express");
-const path = require("path");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const path = require("path");
 require("dotenv").config();
 
 const contactRoutes = require("./routes/contactRoute");
@@ -47,33 +47,28 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({
-  origin: ["http://localhost:3000", "*"],
-  credentials: true,
-}));
-
+app.use(cors());
 app.use(express.json());
 
-// Serve static files from React build
-app.use(express.static(path.join(__dirname, "..", "build")));
+// React static files serve karne ke liye
+app.use(express.static(path.join(__dirname, "..", "build")));  // build folder root me hai
 
-// API Routes
+// API route
 app.use("/api", contactRoutes);
 
-// Serve React app for any unknown routes
-app.get("*", (req, res) => {
+// ⭐️ Ye React ke SPA routes handle karega
+app.get(PORT, (req, res) => {
   res.sendFile(path.join(__dirname, "..", "build", "index.html"));
 });
 
-// MongoDB Connect & Start Server
-mongoose
-  .connect(process.env.MONGODB_URI)
+// MongoDB connection
+mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
-    console.log("MongoDB connected successfully ✅");
+    console.log("✅ MongoDB connected successfully");
     app.listen(PORT, () => {
-      console.log(`Server running on http://localhost:${PORT} 🚀`);
+      console.log(`🚀 Server running at http://localhost:${PORT}`);
     });
   })
   .catch((err) => {
-    console.error("MongoDB connection error ❌", err);
+    console.error("❌ MongoDB connection error:", err);
   });
