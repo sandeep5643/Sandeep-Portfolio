@@ -8,7 +8,7 @@
 // const app = express();
 // const PORT = process.env.PORT || 5000;
 
-// // Middleware
+// Middleware
 // app.use(cors({
 //   origin: ["http://localhost:5000", "*"],
 // 	credentials: true,
@@ -47,7 +47,12 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["http://localhost:5000", "https://sandeep-portfolio-zeta.vercel.app"],
+    credentials: true,
+    }
+));
 app.use(express.json());
 
 // React static files serve karne ke liye
