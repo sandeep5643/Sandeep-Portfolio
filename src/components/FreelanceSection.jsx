@@ -22,45 +22,6 @@ const FreelanceSection = () => {
         <li>🛠️ Bug Fixes & Code Optimization</li>
       </ul>
 
-      <div className="flex justify-center items-center gap-6 flex-wrap mt-8">
-        <a
-          href="https://www.fiverr.com/yourusername"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:scale-105 transition"
-        >
-          <img
-            src="/assets/fiverr.png"
-            alt="Fiverr"
-            className="h-10 w-auto object-contain"
-          />
-        </a>
-        <a
-          href="https://www.upwork.com/freelancers/~0162c58d77c1663306"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:scale-105 transition"
-        >
-          <img
-            src="/assets/upwork.png"
-            alt="Upwork"
-            className="h-10 w-auto object-contain"
-          />
-        </a>
-        <a
-          href="https://www.freelancer.com/u/yourusername"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:scale-105 transition"
-        >
-          <img
-            src="/assets/freelancer.png"
-            alt="Freelancer"
-            className="h-10 w-auto object-contain"
-          />
-        </a>
-      </div>
-
       <div className="text-center mt-10">
         <a
           href="mailto:sandeekumar80832718@gmail.com"

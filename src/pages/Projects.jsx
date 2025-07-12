@@ -8,18 +8,18 @@ const projectsData = [
     title: "StudyNotion: Unlock Your Learning Potential",
     description: "StudyNotion is a comprehensive EdTech platform built using the MERN stack. It provides users with interactive courses, personalized learning paths, and tools to track progress.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/c_thumb,w_200,g_face/v1744465976/Screenshot_2025-04-12_192219_uxocpm.png",
+    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1752299869/Screenshot_2025-07-12_112733_rbuqyk.png",
     demoLink: "https://study-notion-orpin-nu.vercel.app",
     codeLink: "https://github.com/sandeep5643/StudyNotion"
   },
   {
-    category: "Web Utility",
-    title: "Weather App",
-    description: "A simple weather app that fetches real-time weather data using OpenWeatherMap API. Users can input a city name to get temperature, humidity, and conditions.",
-    technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/c_thumb,w_200,g_face/v1744467976/Screenshot_2025-04-12_195545_btsgai.png",
-    demoLink: "https://weather-app-sandeep-kumars-projects-3b112ec9.vercel.app/",
-    codeLink: "https://github.com/sandeep5643/WeatherApp"
+    category: "Web Development",
+    title: "Preschool-Website",
+    description: "Preschool Website is a static website. built using the HTML, CSS, JAVASCRIPT and BOOTSTRAP. It only shows school information. like school cultural activities, parents reviews, school facilities, school classes, etc.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1752299502/Screenshot_2025-07-12_112048_kvwlbo.png",
+    demoLink: "https://preschool-website-eta.vercel.app",
+    codeLink: "https://github.com/sandeep5643/preschool-website"
   }
 ];
 
