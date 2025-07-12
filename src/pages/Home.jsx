@@ -9,6 +9,7 @@ import Blog from "./Blog";
 import Testimonials from "./Testimonials";
 import Navbar from "../components/Navbar";
 import AnimatedName from "../components/AnimatedName";
+import FreelanceSection from "../components/FreelanceSection";
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
       {/* Hero Section */}
       <section
           id="hero"
-          className="flex flex-col items-center justify-center text-center px-6 sm:px-10 md:px-16 lg:px-20 py-20 bg-gradient-to-br from-blue-50 via-purple-50 to-yellow-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
+          className="flex flex-col items-center justify-center text-center px-6 sm:px-10 md:px-16 lg:px-20 py-32 bg-gradient-to-br from-blue-50 via-purple-50 to-yellow-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
         >
 
           <AnimatedName/>
@@ -74,6 +75,10 @@ const Home = () => {
           </motion.a>
         </motion.div>
       </section>
+
+      <div className="pt-10">
+        <FreelanceSection/>
+      </div>
 
       {/* Skills Section */}
       <section id="skills" className="py-14 bg-white dark:bg-gray-900">

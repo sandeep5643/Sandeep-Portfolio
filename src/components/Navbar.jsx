@@ -4,6 +4,7 @@ import { useDarkMode } from "../context/DarkModeContext";
 import { FiMenu, FiX } from "react-icons/fi";
 import { AnimatePresence, motion } from "framer-motion";
 
+
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,6 +21,7 @@ const Navbar = () => {
     { to: "blog", label: "Blog" },
     { to: "testimonial", label: "Testimonials" },
     { to: "contact", label: "Contact" },
+    { to: "freelance", label:"Freelance"},
   ];
 
   return (
