@@ -27,7 +27,7 @@ const projectsData = [
     description: "School-Website is a school management system built using HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js, and MongoDB. It features an admin dashboard where the admin can manage students (view, add, and update status), handle profile details, and change passwords. The system includes a Message module that receives enquiries from the frontend and sends email notifications to the admin. It also provides a Fee Management module for tracking student fees, along with secure logout functionality. Additional features will be added in upcoming updates.",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Cloudunary", "SendGrip", "bcrypt", "jsonwebtoken (JWT)", "mongoose", "uuid", "dotenv"],
     imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1752299502/Screenshot_2025-07-12_112048_kvwlbo.png",
-    demoLink: "https://school-website-575d.vercel.app",
+    demoLink: "https://school-website-mu-bice.vercel.app",
     codeLink: "https://github.com/sandeep5643/school-website"
   }
 ];
