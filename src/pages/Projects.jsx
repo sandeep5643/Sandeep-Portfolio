@@ -29,6 +29,15 @@ const projectsData = [
     imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1752299502/Screenshot_2025-07-12_112048_kvwlbo.png",
     demoLink: "https://school-website-mu-bice.vercel.app",
     codeLink: "https://github.com/sandeep5643/school-website"
+  },
+  {
+    category: "Web Development",
+    title: "School-Coaching Management System",
+    description: "School-Coaching Management System is a complete document and student management platform built using Tailwindcss, JavaScript, React.js, Node.js, Express.js, and MongoDB. It includes a secure Admin Dashboard where the admin can upload, update, and delete important PDF study materials, which are instantly visible to students on the frontend. Students can only view and download the PDFs, ensuring strict access control along with secure authentication and logout functionality. More advanced modules will be added in future updates.",
+    technologies: ["JavaScript", "Tailwindcss", "React.js", "Node.js", "Express.js", "MongoDB", "sendgrid/mail", "nodemon", "mongoose", "dotenv", "aos", "axios", "bcrypt", "cookie-parser", "jsonwebtoken", "multer", "otp-generator", "concurrently", "framer-motion", "web-vitals"],
+    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1763378808/Screenshot_2025-11-17_165442_zttjv7.png",
+    demoLink: "https://iit-ms-tutorial.vercel.app",
+    codeLink: "https://github.com/sandeep5643/IITMsTutorial"
   }
 ];
 
