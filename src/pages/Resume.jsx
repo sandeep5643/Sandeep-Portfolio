@@ -20,7 +20,7 @@ const Resume = () => {
     setTimeout(() => {
       const link = document.createElement("a");
       link.href = "/";
-      link.setAttribute("download", "Sandeep_Kumar_Resume.pdf");
+      link.setAttribute("download", "SANDEEP_KUMAR_RESUME_001.pdf");
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
