@@ -47,9 +47,17 @@ const projectsData = [
     imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1764055123/Screenshot_2025-11-25_124659_a9nb7u.png",
     demoLink: "https://expense-tracker-backend-2iy5.onrender.com",
     codeLink: "https://github.com/sandeep5643/expense-tracker"
+  },
+  {
+    category: "Web Development",
+    title: "AI Chatbot",
+    description: "A web-based AI Chatbot built using Flask and Google Gemini API. It supports rich markdown formatting, left-right chat UI, and production-ready deployment.",
+    technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript", "API: Google Gemini API (Free Tier supported)", "Render"],
+    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1764073695/Screenshot_2025-11-25_175747_tf7zvi.png",
+    demoLink: " https://chatbot-2bfb.onrender.com",
+    codeLink: "https://github.com/sandeep5643/chatbot"
   }
 ];
-
 const Projects = () => {
   useEffect(() => {
     AOS.init({
