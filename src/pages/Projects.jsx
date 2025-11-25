@@ -38,6 +38,15 @@ const projectsData = [
     imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1763378808/Screenshot_2025-11-17_165442_zttjv7.png",
     demoLink: "https://iit-ms-tutorial.vercel.app",
     codeLink: "https://github.com/sandeep5643/IITMsTutorial"
+  },
+  {
+    category: "Web Development",
+    title: "Expense Tracker Web Application",
+    description: "This is a web-based Expense Tracker Application where a user can add, update, delete, and categorize their daily expenses. The backend is built using Flask, data is stored in an SQLite database, and the UI is made using HTML, CSS, and Bootstrap.",
+    technologies: ["Python", "Flask", "SQLite", "SQLAlchemy", "HTML", "CSS", "Bootstrap " ],
+    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1764055123/Screenshot_2025-11-25_124659_a9nb7u.png",
+    demoLink: "https://expense-tracker-backend-2iy5.onrender.com",
+    codeLink: "https://github.com/sandeep5643/expense-tracker"
   }
 ];
 
