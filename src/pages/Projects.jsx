@@ -14,15 +14,6 @@ const projectsData = [
   },
   {
     category: "Web Development",
-    title: "Preschool-Website",
-    description: "Preschool Website is a static website. built using the HTML, CSS, JAVASCRIPT and BOOTSTRAP. It only shows school information. like school cultural activities, parents reviews, school facilities, school classes, etc.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    imageUrl: "https://res.cloudinary.com/dntmiu082/image/upload/v1752299502/Screenshot_2025-07-12_112048_kvwlbo.png",
-    demoLink: "https://preschool-website-eta.vercel.app",
-    codeLink: "https://github.com/sandeep5643/preschool-website"
-  },
-  {
-    category: "Web Development",
     title: "School-Website",
     description: "School-Website is a school management system built using HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js, and MongoDB. It features an admin dashboard where the admin can manage students (view, add, and update status), handle profile details, and change passwords. The system includes a Message module that receives enquiries from the frontend and sends email notifications to the admin. It also provides a Fee Management module for tracking student fees, along with secure logout functionality. Additional features will be added in upcoming updates.",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Cloudunary", "SendGrip", "bcrypt", "jsonwebtoken (JWT)", "mongoose", "uuid", "dotenv"],
